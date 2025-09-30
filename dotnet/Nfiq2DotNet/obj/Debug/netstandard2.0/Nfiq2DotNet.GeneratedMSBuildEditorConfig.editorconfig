@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Nfiq2DotNet
+build_property.ProjectDir = /Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

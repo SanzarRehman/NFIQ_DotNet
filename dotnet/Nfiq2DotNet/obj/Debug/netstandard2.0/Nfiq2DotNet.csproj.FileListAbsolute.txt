@@ -1,0 +1,13 @@
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/Debug/netstandard2.0/Nfiq2DotNet.csproj.AssemblyReference.cache
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/Debug/netstandard2.0/Nfiq2DotNet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/Debug/netstandard2.0/Nfiq2DotNet.AssemblyInfoInputs.cache
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/Debug/netstandard2.0/Nfiq2DotNet.AssemblyInfo.cs
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/Debug/netstandard2.0/Nfiq2DotNet.csproj.CoreCompileInputs.cache
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/Debug/netstandard2.0/Nfiq2DotNet.sourcelink.json
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/bin/Debug/netstandard2.0/Nfiq2DotNet.deps.json
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/bin/Debug/netstandard2.0/Nfiq2DotNet.dll
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/bin/Debug/netstandard2.0/Nfiq2DotNet.pdb
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/bin/Debug/netstandard2.0/Nfiq2DotNet.xml
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/Debug/netstandard2.0/Nfiq2DotNet.dll
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/Debug/netstandard2.0/Nfiq2DotNet.xml
+/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/Debug/netstandard2.0/Nfiq2DotNet.pdb

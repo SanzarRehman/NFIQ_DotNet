@@ -1,0 +1,8 @@
+LIBRARY NFIQ2API
+EXPORTS
+  GetNfiq2Version
+  InitNfiq2
+  ComputeNfiq2Score
+  ShutdownNfiq2
+  FreeNfiq2Buffer
+  GetLastNfiq2Error

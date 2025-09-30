@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet.Sample/Nfiq2DotNet.Sample.csproj": {}
+  },
+  "projects": {
+    "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet.Sample/Nfiq2DotNet.Sample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet.Sample/Nfiq2DotNet.Sample.csproj",
+        "projectName": "Nfiq2DotNet.Sample",
+        "projectPath": "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet.Sample/Nfiq2DotNet.Sample.csproj",
+        "packagesPath": "/Users/sanzar/.nuget/packages/",
+        "outputPath": "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet.Sample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sanzar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/Nfiq2DotNet.csproj": {
+                "projectPath": "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/Nfiq2DotNet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/Nfiq2DotNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/Nfiq2DotNet.csproj",
+        "projectName": "Nfiq2DotNet",
+        "projectPath": "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/Nfiq2DotNet.csproj",
+        "packagesPath": "/Users/sanzar/.nuget/packages/",
+        "outputPath": "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sanzar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

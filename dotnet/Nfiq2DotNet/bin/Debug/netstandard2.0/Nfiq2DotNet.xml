@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nfiq2DotNet</name>
+    </assembly>
+    <members>
+        <member name="T:Nfiq2DotNet.FingerPosition">
+            <summary>
+            ISO/IEC 19794-4:2011 finger position codes used by NFIQ2.
+            </summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.Unknown">
+            <summary>Finger position unspecified.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.RightThumb">
+            <summary>Right hand thumb.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.RightIndex">
+            <summary>Right hand index finger.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.RightMiddle">
+            <summary>Right hand middle finger.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.RightRing">
+            <summary>Right hand ring finger.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.RightLittle">
+            <summary>Right hand little finger.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.LeftThumb">
+            <summary>Left hand thumb.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.LeftIndex">
+            <summary>Left hand index finger.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.LeftMiddle">
+            <summary>Left hand middle finger.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.LeftRing">
+            <summary>Left hand ring finger.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.LeftLittle">
+            <summary>Left hand little finger.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.RightFourFingerSlap">
+            <summary>Right hand four-finger slap.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.LeftFourFingerSlap">
+            <summary>Left hand four-finger slap.</summary>
+        </member>
+        <member name="F:Nfiq2DotNet.FingerPosition.TwoThumbs">
+            <summary>Two thumbs captured simultaneously.</summary>
+        </member>
+        <member name="T:Nfiq2DotNet.Nfiq2Algorithm">
+            <summary>
+            High level managed wrapper around the native NFIQ2 algorithm implementation.
+            </summary>
+        </member>
+        <member name="P:Nfiq2DotNet.Nfiq2Algorithm.IsInitialized">
+            <summary>
+            Gets a value indicating whether the underlying native algorithm has been initialised.
+            </summary>
+        </member>
+        <member name="P:Nfiq2DotNet.Nfiq2Algorithm.ParameterHash">
+            <summary>
+            Gets the parameter hash returned by the native library during initialisation.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">Thrown when the algorithm has not yet been initialised.</exception>
+        </member>
+        <member name="M:Nfiq2DotNet.Nfiq2Algorithm.Initialise(System.String)">
+            <summary>
+            Initializes the native NFIQ2 algorithm.
+            </summary>
+            <param name="nativeLibraryPath">Optional path to the NFIQ2 native library (Nfiq2Api.dll / libNfiq2Api.so).</param>
+            <returns>The parameter hash reported by the native model.</returns>
+        </member>
+        <member name="M:Nfiq2DotNet.Nfiq2Algorithm.ComputeScore(System.Byte[],System.Int32,System.Int32,Nfiq2DotNet.FingerPosition,System.Int32)">
+            <summary>
+            Computes the NFIQ2 quality score for a grayscale fingerprint image.
+            </summary>
+            <param name="pixels">Fingerprint image data (8-bit grayscale) laid out row-major.</param>
+            <param name="width">Image width in pixels.</param>
+            <param name="height">Image height in pixels.</param>
+            <param name="fingerPosition">Finger position code (see <see cref="T:Nfiq2DotNet.FingerPosition"/>).</param>
+            <param name="ppi">Pixels per inch resolution. Defaults to 500, the most common setting.</param>
+            <returns>The quality score (0-100 where 100 indicates highest quality).</returns>
+        </member>
+        <member name="M:Nfiq2DotNet.Nfiq2Algorithm.GetVersion(System.String)">
+            <summary>
+            Retrieves the version information exposed by the native library.
+            </summary>
+        </member>
+        <member name="M:Nfiq2DotNet.Nfiq2Algorithm.Dispose">
+            <summary>
+            Releases the native NFIQ2 resources.
+            </summary>
+        </member>
+        <member name="T:Nfiq2DotNet.Nfiq2Exception">
+            <summary>
+            Represents an error returned from the native NFIQ2 library.
+            </summary>
+        </member>
+        <member name="M:Nfiq2DotNet.Nfiq2Exception.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nfiq2DotNet.Nfiq2Exception"/> class.
+            </summary>
+        </member>
+        <member name="M:Nfiq2DotNet.Nfiq2Exception.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nfiq2DotNet.Nfiq2Exception"/> class with a specified error message.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+        </member>
+        <member name="M:Nfiq2DotNet.Nfiq2Exception.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nfiq2DotNet.Nfiq2Exception"/> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception.</param>
+        </member>
+        <member name="T:Nfiq2DotNet.Nfiq2Version">
+            <summary>
+            Represents the version information returned by the native NFIQ2 library.
+            </summary>
+        </member>
+        <member name="P:Nfiq2DotNet.Nfiq2Version.Major">
+            <summary>Gets the major version number.</summary>
+        </member>
+        <member name="P:Nfiq2DotNet.Nfiq2Version.Minor">
+            <summary>Gets the minor version number.</summary>
+        </member>
+        <member name="P:Nfiq2DotNet.Nfiq2Version.Patch">
+            <summary>Gets the patch version number.</summary>
+        </member>
+        <member name="P:Nfiq2DotNet.Nfiq2Version.OpenCvVersion">
+            <summary>Gets the OpenCV version string reported by the native library.</summary>
+        </member>
+        <member name="M:Nfiq2DotNet.Nfiq2Version.#ctor(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nfiq2DotNet.Nfiq2Version"/> structure.
+            </summary>
+            <param name="major">Major version number.</param>
+            <param name="minor">Minor version number.</param>
+            <param name="patch">Patch version number.</param>
+            <param name="openCvVersion">OpenCV version string.</param>
+        </member>
+        <member name="M:Nfiq2DotNet.Nfiq2Version.ToString">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

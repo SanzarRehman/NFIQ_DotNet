@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyTitle>NFIQ2 .NET Interop</AssemblyTitle>
+    <Description>.NET bindings for the NIST Fingerprint Image Quality (NFIQ2) native library.</Description>
+    <PackageTags>nist;nfiq2;fingerprint;biometrics;interop</PackageTags>
+    <Authors>NIST / SecuGen Integration</Authors>
+    <Company>National Institute of Standards and Technology</Company>
+  </PropertyGroup>
+
+</Project>
