@@ -12,4 +12,4 @@
 	url = https://github.com/opencv/opencv.git
 [submodule "NFIR"]
 	path = NFIR
-	url = https://github.com/gfiumara/NFIR.git
+	url = https://github.com/usnistgov/nfir.git
