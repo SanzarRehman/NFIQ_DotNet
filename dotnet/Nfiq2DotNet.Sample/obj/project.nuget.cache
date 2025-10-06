@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RNSmVx6FGPs=",
+  "dgSpecHash": "12TgG2VZsus=",
   "success": true,
-  "projectFilePath": "/Users/sanzar/NFIQ2/dotnet/Nfiq2DotNet.Sample/Nfiq2DotNet.Sample.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Pictures\\NFIQ_DotNet\\dotnet\\Nfiq2DotNet.Sample\\Nfiq2DotNet.Sample.csproj",
   "expectedPackageFiles": [
-    "/Users/sanzar/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "/Users/sanzar/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
-    "/Users/sanzar/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.36/microsoft.netcore.app.host.osx-arm64.6.0.36.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }

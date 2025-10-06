@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute(".NET bindings for the NIST Fingerprint Image Quality (NFIQ2) native library.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b05723fc5446161f52b34ca2a33a592018c91d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70749a1d3a02f90561c03cc98d4d4d8c74390182")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nfiq2DotNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NFIQ2 .NET Interop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

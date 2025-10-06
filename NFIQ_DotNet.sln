@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{71E6E750-85FD-B5BC-4321-E01377EC6231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nfiq2DotNet", "dotnet\Nfiq2DotNet\Nfiq2DotNet.csproj", "{3423F7D2-FC25-9F08-1750-CE3F5751AC2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nfiq2DotNet.Sample", "dotnet\Nfiq2DotNet.Sample\Nfiq2DotNet.Sample.csproj", "{C632DF85-F846-EB87-77F0-9E04DAEA2DE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3423F7D2-FC25-9F08-1750-CE3F5751AC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3423F7D2-FC25-9F08-1750-CE3F5751AC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3423F7D2-FC25-9F08-1750-CE3F5751AC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3423F7D2-FC25-9F08-1750-CE3F5751AC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C632DF85-F846-EB87-77F0-9E04DAEA2DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C632DF85-F846-EB87-77F0-9E04DAEA2DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C632DF85-F846-EB87-77F0-9E04DAEA2DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C632DF85-F846-EB87-77F0-9E04DAEA2DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3423F7D2-FC25-9F08-1750-CE3F5751AC2D} = {71E6E750-85FD-B5BC-4321-E01377EC6231}
+		{C632DF85-F846-EB87-77F0-9E04DAEA2DE6} = {71E6E750-85FD-B5BC-4321-E01377EC6231}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {266F37A1-A7B3-42CF-9F74-7C13FCB95FA6}
+	EndGlobalSection
+EndGlobal
